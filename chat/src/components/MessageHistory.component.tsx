@@ -7,7 +7,7 @@ export type Messages = {
     from: {name: string};
     type: string;
     time: string
-    text: string
+    text?: string
 }
 
 export const MessageHistory = (props: {list: Messages[]}) => {

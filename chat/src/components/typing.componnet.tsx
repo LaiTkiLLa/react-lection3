@@ -1,4 +1,4 @@
-export const Typing = (props: {from: { name: string }, message: { text: string, time: string }}) => {
+export const Typing = (props: {from: { name: string }, message: { text?: string, time: string }}) => {
     return (
         <li>
             <div className="message-data">

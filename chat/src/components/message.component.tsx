@@ -1,4 +1,4 @@
-export const Message = (props: {from: { name: string }, message: { text: string, time: string }}) => {
+export const Message = (props: {from: { name: string }, message: { text?: string, time: string }}) => {
     return (
         <li className="clearfix">
             <div className="message-data align-right">

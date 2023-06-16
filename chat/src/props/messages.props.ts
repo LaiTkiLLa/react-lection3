@@ -1,4 +1,6 @@
-export const messages: Array<any> = [{
+import {Messages} from "../components/MessageHistory.component";
+
+export const messages: Messages[] = [{
     id: 'chat-5-1090',
     from: { name: 'Ольга' },
     type: 'response',

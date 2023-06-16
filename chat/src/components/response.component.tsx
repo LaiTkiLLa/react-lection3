@@ -1,4 +1,4 @@
-export const Response = (props: {from: { name: string }, message: { text: string, time: string }}) => {
+export const Response = (props: {from: { name: string }, message: { text?: string, time: string }}) => {
     return (
         <li>
             <div className="message-data">
